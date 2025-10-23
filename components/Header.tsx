@@ -37,12 +37,7 @@ export default function Header() {
                     >
                       Privacy Policy
                     </Link>
-            <Link
-              href="/contact"
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
-            >
-              Contact
-            </Link>
+            {/* Contact temporarily removed */}
           </nav>
 
           {/* Mobile menu button */}
@@ -88,13 +83,7 @@ export default function Header() {
                       >
                         Privacy Policy
                       </Link>
-              <Link
-                href="/contact"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contact
-              </Link>
+              {/* Contact temporarily removed */}
             </div>
           </div>
         )}

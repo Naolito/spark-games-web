@@ -57,28 +57,7 @@ export default function Footer() {
                       </ul>
             </div>
 
-            {/* Contact */}
-            <div>
-              <h3 className="text-lg font-semibold mb-4">Contact</h3>
-              <ul className="space-y-2">
-                <li>
-                  <Link 
-                    href="/contact" 
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Contact Us
-                  </Link>
-                </li>
-                <li>
-                  <a 
-                    href="mailto:contact@naolito.com" 
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Email Support
-                  </a>
-                </li>
-              </ul>
-            </div>
+            {/* Contact temporarily removed (keep email in company info) */}
           </div>
         </div>
 
