@@ -27,7 +27,7 @@ export default function ContactContent() {
 
     try {
       // Submit to Netlify Forms
-      const response = await fetch('/contact', {
+      const response = await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams({
@@ -43,12 +43,10 @@ export default function ContactContent() {
         setSubmitStatus('success');
         setFormData({ name: '', email: '', subject: '', message: '' });
         
-        // Auto-hide success message after 30 seconds
         setTimeout(() => {
           setSubmitStatus('idle');
         }, 30000);
         
-        // Scroll to success message
         window.scrollTo({ top: 0, behavior: 'smooth' });
       } else {
         throw new Error('Form submission failed');
@@ -213,7 +211,7 @@ export default function ContactContent() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                <label htmlFor="message" className="block text sm font-medium text-gray-700 mb-2">
                   Message *
                 </label>
                 <textarea
