@@ -27,7 +27,7 @@ export default function ContactContent() {
 
     try {
       // Submit to Netlify Forms
-      const response = await fetch('/', {
+      const response = await fetch('/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams({
@@ -90,15 +90,6 @@ export default function ContactContent() {
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">Office Address</h3>
-                <div className="text-gray-700">
-                  <p>Sor teresa prat 15</p>
-                  <p>Polo de contenidos digitales</p>
-                  <p>Málaga (Spain) 29003</p>
-                </div>
-              </div>
-
-              <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">Contact Details</h3>
                 <div className="space-y-3">
                   <div className="flex items-center">
@@ -110,17 +101,6 @@ export default function ContactContent() {
                     </a>
                   </div>
                 </div>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">Support Categories</h3>
-                <ul className="space-y-2 text-gray-700">
-                  <li>• Game technical support</li>
-                  <li>• Account and billing issues</li>
-                  <li>• Privacy and data protection</li>
-                  <li>• Business inquiries</li>
-                  <li>• Press and media</li>
-                </ul>
               </div>
 
               <div className="pt-4 border-t border-gray-200">
@@ -147,8 +127,7 @@ export default function ContactContent() {
                       Thank you for contacting Spark Games. We have received your message and our team will review it shortly.
                     </p>
                     <p className="text-green-600 text-sm">
-                      <strong>Expected response time:</strong> 24-48 hours during business days.<br />
-                      <strong>Reference:</strong> {new Date().toISOString().slice(0, 10)}-{Math.random().toString(36).substr(2, 5).toUpperCase()}
+                      <strong>Expected response time:</strong> 24-48 hours during business days.
                     </p>
                   </div>
                 </div>
@@ -200,7 +179,6 @@ export default function ContactContent() {
                     value={formData.name}
                     onChange={handleInputChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                    placeholder="Your full name"
                   />
                 </div>
                 <div>
@@ -215,7 +193,6 @@ export default function ContactContent() {
                     value={formData.email}
                     onChange={handleInputChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                    placeholder="your.email@example.com"
                   />
                 </div>
               </div>
@@ -224,22 +201,15 @@ export default function ContactContent() {
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
                   Subject *
                 </label>
-                <select
+                <input
+                  type="text"
                   id="subject"
                   name="subject"
                   required
                   value={formData.subject}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-colors"
-                >
-                  <option value="">Select a subject</option>
-                  <option value="technical-support">Technical Support</option>
-                  <option value="account-billing">Account & Billing</option>
-                  <option value="privacy-data">Privacy & Data Protection</option>
-                  <option value="business-inquiry">Business Inquiry</option>
-                  <option value="press-media">Press & Media</option>
-                  <option value="other">Other</option>
-                </select>
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
+                />
               </div>
 
               <div>
@@ -253,15 +223,8 @@ export default function ContactContent() {
                   rows={6}
                   value={formData.message}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-colors resize-vertical"
-                  placeholder="Please describe your inquiry in detail..."
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                 />
-              </div>
-
-              <div className="text-sm text-gray-600">
-                <p>
-                  By submitting this form, you agree to our <a href="/privacy-policy" className="text-blue-600 hover:text-blue-700">Privacy Policy</a> and consent to the processing of your personal data for the purpose of responding to your inquiry.
-                </p>
               </div>
 
               <button
@@ -277,9 +240,9 @@ export default function ContactContent() {
                   <div className="flex items-center justify-center">
                     <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" fill="none" viewBox="0 0 24 24">
                       <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
                     </svg>
-                    Sending Message...
+                    Sending...
                   </div>
                 ) : (
                   'Send Message'
@@ -293,22 +256,14 @@ export default function ContactContent() {
         {/* Additional Information */}
         <div className="mt-12 bg-white rounded-2xl shadow-lg p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
-          
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="space-y-6 text-gray-700">
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Game Support</h3>
-              <div className="space-y-3 text-gray-700">
-                <p><strong>Q: How do I report a bug in your games?</strong></p>
-                <p>A: Please use the contact form above with "Technical Support" as the subject and provide detailed information about the issue.</p>
-              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">What is the typical response time?</h3>
+              <p>We aim to respond within 24-48 hours during business days.</p>
             </div>
-            
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Privacy & Data</h3>
-              <div className="space-y-3 text-gray-700">
-                <p><strong>Q: How can I delete my account data?</strong></p>
-                <p>A: Contact us with "Privacy & Data Protection" as the subject, and we'll help you with your data deletion request.</p>
-              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Can I contact you for business opportunities?</h3>
+              <p>Absolutely. We welcome inquiries about partnerships, publishing, or other opportunities.</p>
             </div>
           </div>
         </div>
