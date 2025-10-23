@@ -42,20 +42,20 @@
 }
 
 .prose a {
-  @apply text-purple-600 hover:text-purple-700 underline;
+  @apply text-blue-600 hover:text-blue-700 underline;
 }
 
 .prose blockquote {
-  @apply border-l-4 border-purple-200 pl-4 italic text-gray-600 my-6;
+  @apply border-l-4 border-blue-200 pl-4 italic text-gray-600 my-6;
 }
 
 /* Custom button styles */
 .btn-primary {
-  @apply bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2 rounded-lg font-medium hover:from-purple-700 hover:to-blue-700 transition-all duration-200 transform hover:scale-105;
+  @apply bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-6 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-cyan-700 transition-all duration-200 transform hover:scale-105;
 }
 
 .btn-secondary {
-  @apply bg-white text-purple-600 border-2 border-purple-600 px-6 py-2 rounded-lg font-medium hover:bg-purple-50 transition-colors;
+  @apply bg-white text-blue-600 border-2 border-blue-600 px-6 py-2 rounded-lg font-medium hover:bg-blue-50 transition-colors;
 }
 
 /* Smooth scrolling */

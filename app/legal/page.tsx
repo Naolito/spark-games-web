@@ -14,19 +14,19 @@ export default function Legal() {
       <div className="bg-gray-50 p-6 rounded-lg mb-8">
         <h2 className="text-lg font-semibold text-gray-900 mb-4">Table of Contents</h2>
         <nav className="space-y-2">
-          <a href="#app-service-terms" className="block text-purple-600 hover:text-purple-700 transition-colors">
+          <a href="#app-service-terms" className="block text-blue-600 hover:text-blue-700 transition-colors">
             • App Service Terms and Conditions
           </a>
-          <a href="#general-terms" className="block text-purple-600 hover:text-purple-700 transition-colors">
+          <a href="#general-terms" className="block text-blue-600 hover:text-blue-700 transition-colors">
             • General Terms of Service
           </a>
-          <a href="#privacy-policy" className="block text-purple-600 hover:text-purple-700 transition-colors">
+          <a href="#privacy-policy" className="block text-blue-600 hover:text-blue-700 transition-colors">
             • Privacy Policy
           </a>
-          <a href="#cookies-policy" className="block text-purple-600 hover:text-purple-700 transition-colors">
+          <a href="#cookies-policy" className="block text-blue-600 hover:text-blue-700 transition-colors">
             • Cookies Policy
           </a>
-          <a href="#contact-information" className="block text-purple-600 hover:text-purple-700 transition-colors">
+          <a href="#contact-information" className="block text-blue-600 hover:text-blue-700 transition-colors">
             • Contact Information
           </a>
         </nav>
@@ -355,7 +355,7 @@ export default function Legal() {
           <p className="mb-2"><strong>VAT Number:</strong> B75552836</p>
           <p className="mb-2"><strong>Address:</strong> Sor teresa prat 15, Polo de contenidos digitales</p>
           <p className="mb-2">Málaga (Spain) 29003</p>
-          <p className="mb-4"><strong>Email:</strong> <a href="mailto:contact@naolito.com" className="text-purple-600 hover:text-purple-700">contact@naolito.com</a></p>
+          <p className="mb-4"><strong>Email:</strong> <a href="mailto:contact@naolito.com" className="text-blue-600 hover:text-blue-700">contact@naolito.com</a></p>
           
           <p className="text-sm text-gray-600 mt-4">
             <strong>For Data Protection Requests:</strong> Please include "Data Protection Request" in the subject line when contacting us about your privacy rights.

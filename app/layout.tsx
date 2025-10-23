@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   robots: "index, follow",
   manifest: "/manifest.json",
   viewport: "width=device-width, initial-scale=1",
-  themeColor: "#7c3aed",
+  themeColor: "#2563eb",
   openGraph: {
     type: "website",
     locale: "en_US",

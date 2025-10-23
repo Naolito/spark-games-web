@@ -22,7 +22,7 @@ export default function Footer() {
                 <p className="mb-1">VAT Number: B75552836</p>
                 <p className="mb-1">Sor teresa prat 15, Polo de contenidos digitales</p>
                 <p className="mb-1">Málaga (Spain) 29003</p>
-                <p className="mb-1">Email: <a href="mailto:contact@naolito.com" className="text-purple-400 hover:text-purple-300">contact@naolito.com</a></p>
+                <p className="mb-1">Email: <a href="mailto:contact@naolito.com" className="text-blue-400 hover:text-blue-300">contact@naolito.com</a></p>
               </div>
             </div>
 

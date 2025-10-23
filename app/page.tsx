@@ -5,7 +5,7 @@ export default function Home() {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-blue-900">
+        <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-cyan-900">
           {/* Background Gaming Illustration */}
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
@@ -19,10 +19,10 @@ export default function Home() {
               <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
                 Spark Games
               </h1>
-              <p className="text-xl lg:text-2xl text-purple-100 mb-4">
+              <p className="text-xl lg:text-2xl text-blue-100 mb-4">
                 Creating Engaging Mobile Games
               </p>
-              <p className="text-lg text-purple-200 mb-12 max-w-2xl mx-auto">
+              <p className="text-lg text-blue-200 mb-12 max-w-2xl mx-auto">
                 Empowering developers and bringing great mobile games to a global audience. 
                 We craft innovative gaming experiences that connect players worldwide.
               </p>
@@ -76,23 +76,23 @@ export default function Home() {
                 and provide lasting value to our players across the globe.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-purple-100 to-blue-100 rounded-2xl p-8">
+            <div className="bg-gradient-to-br from-blue-50 to-cyan-100 rounded-2xl p-8">
               <h4 className="text-xl font-semibold text-gray-900 mb-4">What We Do</h4>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
                   Mobile Game Development
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
                   iOS & Android Publishing
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
                   Game Design & User Experience
                 </li>
                 <li className="flex items-center">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full mr-3"></div>
+                  <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
                   Community Building
                 </li>
               </ul>
@@ -152,25 +152,25 @@ export default function Home() {
             <div className="flex flex-wrap justify-center gap-6">
               <Link 
                 href="/legal" 
-                className="text-purple-600 hover:text-purple-700 font-medium transition-colors"
+                className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
               >
                 Terms and Conditions
               </Link>
               <Link 
                 href="/legal#privacy-policy" 
-                className="text-purple-600 hover:text-purple-700 font-medium transition-colors"
+                className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
               >
                 Privacy Policy
               </Link>
               <Link 
                 href="/legal#cookies-policy" 
-                className="text-purple-600 hover:text-purple-700 font-medium transition-colors"
+                className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
               >
                 Cookies Policy
               </Link>
               <Link 
                 href="/contact" 
-                className="text-purple-600 hover:text-purple-700 font-medium transition-colors"
+                className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
               >
                 Contact Us
               </Link>

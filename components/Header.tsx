@@ -21,19 +21,19 @@ export default function Header() {
           <nav className="hidden md:flex space-x-8">
             <Link
               href="/"
-              className="text-gray-700 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors"
+              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
             >
               Home
             </Link>
             <Link
               href="/legal"
-              className="text-gray-700 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors"
+              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
             >
               Terms & Conditions
             </Link>
             <Link
               href="/contact"
-              className="text-gray-700 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors"
+              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
             >
               Contact
             </Link>
@@ -43,7 +43,7 @@ export default function Header() {
           <div className="md:hidden">
             <button
               type="button"
-              className="text-gray-700 hover:text-purple-600 focus:outline-none focus:text-purple-600"
+              className="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -63,21 +63,21 @@ export default function Header() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-gray-200">
               <Link
                 href="/"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link
                 href="/legal"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Terms & Conditions
               </Link>
               <Link
                 href="/contact"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact

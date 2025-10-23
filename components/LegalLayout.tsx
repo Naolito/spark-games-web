@@ -31,7 +31,7 @@ export default function LegalLayout({ title, children, lastUpdated }: LegalLayou
         <div className="mt-8 text-center">
           <a
             href="/"
-            className="inline-flex items-center text-purple-600 hover:text-purple-700 font-medium transition-colors"
+            className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium transition-colors"
           >
             <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />

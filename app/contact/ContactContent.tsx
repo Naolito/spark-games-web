@@ -83,10 +83,10 @@ export default function ContactContent() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">Contact Details</h3>
                 <div className="space-y-3">
                   <div className="flex items-center">
-                    <svg className="w-5 h-5 text-purple-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-blue-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <a href="mailto:contact@naolito.com" className="text-purple-600 hover:text-purple-700">
+                    <a href="mailto:contact@naolito.com" className="text-blue-600 hover:text-blue-700">
                       contact@naolito.com
                     </a>
                   </div>
@@ -151,7 +151,7 @@ export default function ContactContent() {
                     required
                     value={formData.name}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-colors"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                     placeholder="Your full name"
                   />
                 </div>
@@ -166,7 +166,7 @@ export default function ContactContent() {
                     required
                     value={formData.email}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-colors"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -212,7 +212,7 @@ export default function ContactContent() {
 
               <div className="text-sm text-gray-600">
                 <p>
-                  By submitting this form, you agree to our <a href="/legal#privacy-policy" className="text-purple-600 hover:text-purple-700">Privacy Policy</a> and consent to the processing of your personal data for the purpose of responding to your inquiry.
+                  By submitting this form, you agree to our <a href="/legal#privacy-policy" className="text-blue-600 hover:text-blue-700">Privacy Policy</a> and consent to the processing of your personal data for the purpose of responding to your inquiry.
                 </p>
               </div>
 
@@ -222,7 +222,7 @@ export default function ContactContent() {
                 className={`w-full py-3 px-6 rounded-lg font-medium text-white transition-all duration-200 ${
                   isSubmitting 
                     ? 'bg-gray-400 cursor-not-allowed' 
-                    : 'bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 transform hover:scale-[1.02]'
+                    : 'bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 transform hover:scale-[1.02]'
                 }`}
               >
                 {isSubmitting ? (
