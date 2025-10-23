@@ -22,8 +22,7 @@ export const metadata: Metadata = {
   publisher: "Naolito Games SL",
   robots: "index, follow",
   manifest: "/manifest.json",
-  viewport: "width=device-width, initial-scale=1",
-  themeColor: "#2563eb",
+  metadataBase: new URL('https://sparkgames.com'),
   openGraph: {
     type: "website",
     locale: "en_US",

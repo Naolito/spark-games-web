@@ -23,19 +23,38 @@ export default function ContactContent() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission (since this is frontend-only)
+    setSubmitStatus(null);
+
     try {
-      // In a real application, you would send this data to your backend
-      console.log('Form submission:', formData);
-      
-      // Simulate API call delay
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      // For demo purposes, we'll show a success message
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      // Submit to Netlify Forms
+      const response = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'form-name': 'contact',
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message
+        }).toString()
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({ name: '', email: '', subject: '', message: '' });
+        
+        // Auto-hide success message after 30 seconds
+        setTimeout(() => {
+          setSubmitStatus(null);
+        }, 30000);
+        
+        // Scroll to success message
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        throw new Error('Form submission failed');
+      }
     } catch (error) {
+      console.error('Error submitting form:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -117,28 +136,58 @@ export default function ContactContent() {
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h2>
             
             {submitStatus === 'success' && (
-              <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
-                <div className="flex items-center">
-                  <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="mb-6 p-6 bg-green-50 border border-green-200 rounded-lg">
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-green-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  <p className="text-green-700">Thank you! Your message has been sent successfully.</p>
+                  <div>
+                    <h3 className="font-semibold text-green-800 mb-2">Message Sent Successfully! ✅</h3>
+                    <p className="text-green-700 mb-2">
+                      Thank you for contacting Spark Games. We have received your message and our team will review it shortly.
+                    </p>
+                    <p className="text-green-600 text-sm">
+                      <strong>Expected response time:</strong> 24-48 hours during business days.<br />
+                      <strong>Reference:</strong> {new Date().toISOString().slice(0, 10)}-{Math.random().toString(36).substr(2, 5).toUpperCase()}
+                    </p>
+                  </div>
                 </div>
               </div>
             )}
 
             {submitStatus === 'error' && (
-              <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
-                <div className="flex items-center">
-                  <svg className="w-5 h-5 text-red-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="mb-6 p-6 bg-red-50 border border-red-200 rounded-lg">
+                <div className="flex items-start">
+                  <svg className="w-6 h-6 text-red-600 mr-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                   </svg>
-                  <p className="text-red-700">Sorry, there was an error sending your message. Please try again or contact us directly.</p>
+                  <div>
+                    <h3 className="font-semibold text-red-800 mb-2">Message Failed to Send ❌</h3>
+                    <p className="text-red-700 mb-2">
+                      Sorry, there was an error sending your message. Please try again or contact us directly.
+                    </p>
+                    <p className="text-red-600 text-sm">
+                      <strong>Alternative:</strong> Send us an email directly to{' '}
+                      <a href="mailto:contact@naolito.com" className="underline font-medium">
+                        contact@naolito.com
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             )}
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form 
+              onSubmit={handleSubmit} 
+              className="space-y-6"
+              netlify="true"
+              data-netlify="true"
+              name="contact"
+              method="POST"
+            >
+              {/* Hidden field for Netlify Forms */}
+              <input type="hidden" name="form-name" value="contact" />
+              
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
@@ -239,11 +288,6 @@ export default function ContactContent() {
               </button>
             </form>
 
-            <div className="mt-6 pt-6 border-t border-gray-200">
-              <p className="text-sm text-gray-600">
-                <strong>Note:</strong> This is a demo contact form. In a production environment, form submissions would be processed by a backend service.
-              </p>
-            </div>
           </div>
         </div>
 
