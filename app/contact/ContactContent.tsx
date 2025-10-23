@@ -180,7 +180,6 @@ export default function ContactContent() {
             <form 
               onSubmit={handleSubmit} 
               className="space-y-6"
-              netlify="true"
               data-netlify="true"
               name="contact"
               method="POST"
