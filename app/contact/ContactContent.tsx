@@ -23,7 +23,7 @@ export default function ContactContent() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    setSubmitStatus(null);
+    setSubmitStatus('idle');
 
     try {
       // Submit to Netlify Forms
@@ -45,7 +45,7 @@ export default function ContactContent() {
         
         // Auto-hide success message after 30 seconds
         setTimeout(() => {
-          setSubmitStatus(null);
+          setSubmitStatus('idle');
         }, 30000);
         
         // Scroll to success message
