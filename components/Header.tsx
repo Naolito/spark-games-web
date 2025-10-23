@@ -12,10 +12,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">SG</span>
-              </div>
+            <Link href="/" className="flex items-center">
               <span className="text-xl font-bold text-gray-900">Spark Games</span>
             </Link>
           </div>
@@ -29,22 +26,10 @@ export default function Header() {
               Home
             </Link>
             <Link
-              href="/terms-and-conditions"
+              href="/legal"
               className="text-gray-700 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors"
             >
               Terms & Conditions
-            </Link>
-            <Link
-              href="/privacy-policy"
-              className="text-gray-700 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors"
-            >
-              Privacy Policy
-            </Link>
-            <Link
-              href="/cookies-policy"
-              className="text-gray-700 hover:text-purple-600 px-3 py-2 text-sm font-medium transition-colors"
-            >
-              Cookies Policy
             </Link>
             <Link
               href="/contact"
@@ -84,25 +69,11 @@ export default function Header() {
                 Home
               </Link>
               <Link
-                href="/terms-and-conditions"
+                href="/legal"
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Terms & Conditions
-              </Link>
-              <Link
-                href="/privacy-policy"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-md transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                href="/cookies-policy"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-purple-600 hover:bg-gray-50 rounded-md transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Cookies Policy
               </Link>
               <Link
                 href="/contact"

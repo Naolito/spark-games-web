@@ -25,9 +25,7 @@ This is a modern, responsive website built with Next.js 14 that provides all nec
 ## Pages
 
 - **Homepage** (`/`): Company overview and introduction
-- **Terms & Conditions** (`/terms-and-conditions`): Complete terms of service
-- **Privacy Policy** (`/privacy-policy`): GDPR-compliant privacy policy
-- **Cookies Policy** (`/cookies-policy`): Detailed cookies usage policy
+- **Legal** (`/legal`): Consolidated legal page including Terms & Conditions, Privacy Policy, and Cookies Policy
 - **Contact** (`/contact`): Contact information and form
 
 ## Company Information

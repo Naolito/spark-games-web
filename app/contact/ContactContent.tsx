@@ -212,7 +212,7 @@ export default function ContactContent() {
 
               <div className="text-sm text-gray-600">
                 <p>
-                  By submitting this form, you agree to our <a href="/privacy-policy" className="text-purple-600 hover:text-purple-700">Privacy Policy</a> and consent to the processing of your personal data for the purpose of responding to your inquiry.
+                  By submitting this form, you agree to our <a href="/legal#privacy-policy" className="text-purple-600 hover:text-purple-700">Privacy Policy</a> and consent to the processing of your personal data for the purpose of responding to your inquiry.
                 </p>
               </div>
 

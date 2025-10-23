@@ -10,10 +10,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="col-span-1 md:col-span-2">
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">SG</span>
-                </div>
+              <div className="mb-4">
                 <span className="text-xl font-bold">Spark Games</span>
               </div>
               <p className="text-gray-400 mb-4 max-w-md">
@@ -35,7 +32,7 @@ export default function Footer() {
               <ul className="space-y-2">
                 <li>
                   <Link 
-                    href="/terms-and-conditions" 
+                    href="/legal" 
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Terms and Conditions
@@ -43,7 +40,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link 
-                    href="/privacy-policy" 
+                    href="/legal#privacy-policy" 
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Privacy Policy
@@ -51,7 +48,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link 
-                    href="/cookies-policy" 
+                    href="/legal#cookies-policy" 
                     className="text-gray-400 hover:text-white transition-colors"
                   >
                     Cookies Policy
@@ -93,19 +90,19 @@ export default function Footer() {
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link 
-                href="/terms-and-conditions" 
+                href="/legal" 
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Terms
               </Link>
               <Link 
-                href="/privacy-policy" 
+                href="/legal#privacy-policy" 
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Privacy
               </Link>
               <Link 
-                href="/cookies-policy" 
+                href="/legal#cookies-policy" 
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Cookies

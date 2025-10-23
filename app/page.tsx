@@ -6,16 +6,16 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-blue-900">
+          {/* Background Gaming Illustration */}
+          <div 
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+            style={{
+              backgroundImage: "url('/Images/1c71975d-3bfa-4d55-8f2d-e55396822c15.png')",
+            }}
+          ></div>
           <div className="absolute inset-0 bg-black opacity-20"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
             <div className="text-center">
-              <div className="flex justify-center mb-8">
-                <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center shadow-lg">
-                  <span className="text-3xl font-bold bg-gradient-to-br from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                    SG
-                  </span>
-                </div>
-              </div>
               <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6">
                 Spark Games
               </h1>
@@ -151,19 +151,19 @@ export default function Home() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-8">Legal Information</h2>
             <div className="flex flex-wrap justify-center gap-6">
               <Link 
-                href="/terms-and-conditions" 
+                href="/legal" 
                 className="text-purple-600 hover:text-purple-700 font-medium transition-colors"
               >
                 Terms and Conditions
               </Link>
               <Link 
-                href="/privacy-policy" 
+                href="/legal#privacy-policy" 
                 className="text-purple-600 hover:text-purple-700 font-medium transition-colors"
               >
                 Privacy Policy
               </Link>
               <Link 
-                href="/cookies-policy" 
+                href="/legal#cookies-policy" 
                 className="text-purple-600 hover:text-purple-700 font-medium transition-colors"
               >
                 Cookies Policy
