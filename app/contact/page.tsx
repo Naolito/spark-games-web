@@ -10,15 +10,12 @@ export default function Contact() {
   return (
     <>
       {/* Hidden server-rendered form for Netlify detection */}
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <form name="contact" method="POST" data-netlify="true" hidden>
         <input type="hidden" name="form-name" value="contact" />
-        <p hidden>
-          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-        </p>
         <input type="text" name="name" />
         <input type="email" name="email" />
         <input type="text" name="subject" />
-        <textarea name="message" />
+        <textarea name="message"></textarea>
       </form>
 
       <ContactContent />
