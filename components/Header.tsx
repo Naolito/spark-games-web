@@ -25,12 +25,18 @@ export default function Header() {
             >
               Home
             </Link>
-            <Link
-              href="/legal"
-              className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
-            >
-              Terms & Conditions
-            </Link>
+                    <Link
+                      href="/terms-and-conditions"
+                      className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+                    >
+                      Terms & Conditions
+                    </Link>
+                    <Link
+                      href="/privacy-policy"
+                      className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
+                    >
+                      Privacy Policy
+                    </Link>
             <Link
               href="/contact"
               className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
@@ -68,13 +74,20 @@ export default function Header() {
               >
                 Home
               </Link>
-              <Link
-                href="/legal"
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Terms & Conditions
-              </Link>
+                      <Link
+                        href="/terms-and-conditions"
+                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        Terms & Conditions
+                      </Link>
+                      <Link
+                        href="/privacy-policy"
+                        className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
+                        onClick={() => setIsMenuOpen(false)}
+                      >
+                        Privacy Policy
+                      </Link>
               <Link
                 href="/contact"
                 className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"

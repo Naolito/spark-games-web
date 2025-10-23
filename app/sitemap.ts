@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://sparkgames.com' // Replace with your actual domain
-  
+
   return [
     {
       url: baseUrl,
@@ -11,7 +11,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${baseUrl}/legal`,
+      url: `${baseUrl}/terms-and-conditions`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/privacy-policy`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/cookies-policy`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,

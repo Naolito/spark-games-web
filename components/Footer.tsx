@@ -29,32 +29,32 @@ export default function Footer() {
             {/* Legal Links */}
             <div>
               <h3 className="text-lg font-semibold mb-4">Legal</h3>
-              <ul className="space-y-2">
-                <li>
-                  <Link 
-                    href="/legal" 
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Terms and Conditions
-                  </Link>
-                </li>
-                <li>
-                  <Link 
-                    href="/legal#privacy-policy" 
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Privacy Policy
-                  </Link>
-                </li>
-                <li>
-                  <Link 
-                    href="/legal#cookies-policy" 
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    Cookies Policy
-                  </Link>
-                </li>
-              </ul>
+                      <ul className="space-y-2">
+                        <li>
+                          <Link
+                            href="/terms-and-conditions"
+                            className="text-gray-400 hover:text-white transition-colors"
+                          >
+                            Terms and Conditions
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/privacy-policy"
+                            className="text-gray-400 hover:text-white transition-colors"
+                          >
+                            Privacy Policy
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/cookies-policy"
+                            className="text-gray-400 hover:text-white transition-colors"
+                          >
+                            Cookies Policy
+                          </Link>
+                        </li>
+                      </ul>
             </div>
 
             {/* Contact */}
@@ -88,26 +88,26 @@ export default function Footer() {
             <p className="text-gray-400 text-sm">
               © {currentYear} Spark Games. All Rights Reserved. Commercial name of Naolito Games SL.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link 
-                href="/legal" 
-                className="text-gray-400 hover:text-white text-sm transition-colors"
-              >
-                Terms
-              </Link>
-              <Link 
-                href="/legal#privacy-policy" 
-                className="text-gray-400 hover:text-white text-sm transition-colors"
-              >
-                Privacy
-              </Link>
-              <Link 
-                href="/legal#cookies-policy" 
-                className="text-gray-400 hover:text-white text-sm transition-colors"
-              >
-                Cookies
-              </Link>
-            </div>
+                    <div className="flex space-x-6 mt-4 md:mt-0">
+                      <Link
+                        href="/terms-and-conditions"
+                        className="text-gray-400 hover:text-white text-sm transition-colors"
+                      >
+                        Terms
+                      </Link>
+                      <Link
+                        href="/privacy-policy"
+                        className="text-gray-400 hover:text-white text-sm transition-colors"
+                      >
+                        Privacy
+                      </Link>
+                      <Link
+                        href="/cookies-policy"
+                        className="text-gray-400 hover:text-white text-sm transition-colors"
+                      >
+                        Cookies
+                      </Link>
+                    </div>
           </div>
         </div>
       </div>

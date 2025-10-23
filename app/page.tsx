@@ -127,7 +127,7 @@ export default function Home() {
                   <p><strong>Address:</strong> Sor teresa prat 15</p>
                   <p>Polo de contenidos digitales</p>
                   <p>Málaga (Spain) 29003</p>
-                  <p><strong>Email:</strong> <a href="mailto:contact@naolito.com" className="text-purple-600 hover:text-purple-700">contact@naolito.com</a></p>
+                          <p><strong>Email:</strong> <a href="mailto:contact@naolito.com" className="text-blue-600 hover:text-blue-700">contact@naolito.com</a></p>
                 </div>
               </div>
             </div>
@@ -149,32 +149,32 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-2xl font-semibold text-gray-900 mb-8">Legal Information</h2>
-            <div className="flex flex-wrap justify-center gap-6">
-              <Link 
-                href="/legal" 
-                className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
-              >
-                Terms and Conditions
-              </Link>
-              <Link 
-                href="/legal#privacy-policy" 
-                className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
-              >
-                Privacy Policy
-              </Link>
-              <Link 
-                href="/legal#cookies-policy" 
-                className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
-              >
-                Cookies Policy
-              </Link>
-              <Link 
-                href="/contact" 
-                className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
-              >
-                Contact Us
-              </Link>
-            </div>
+                    <div className="flex flex-wrap justify-center gap-6">
+                      <Link
+                        href="/terms-and-conditions"
+                        className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                      >
+                        Terms and Conditions
+                      </Link>
+                      <Link
+                        href="/privacy-policy"
+                        className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                      >
+                        Privacy Policy
+                      </Link>
+                      <Link
+                        href="/cookies-policy"
+                        className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                      >
+                        Cookies Policy
+                      </Link>
+                      <Link
+                        href="/contact"
+                        className="text-blue-600 hover:text-blue-700 font-medium transition-colors"
+                      >
+                        Contact Us
+                      </Link>
+                    </div>
           </div>
         </div>
       </section>
