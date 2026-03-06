@@ -8,206 +8,214 @@ export const metadata: Metadata = {
 
 export default function CookiesPolicy() {
   return (
-    <LegalLayout title="Cookies Policy" lastUpdated="October 23, 2025">
-      
-      <p><strong>Effective Date: October 23, 2025</strong></p>
-      
+    <LegalLayout title="Cookies Policy" lastUpdated="March 6, 2026">
+
+      <p><strong>Effective date: March 6, 2026</strong></p>
+
       <p>
-        This Cookies Policy explains how Naolito Games SL, operating under the commercial name "Spark Games" ("we," "us," or "our"), uses cookies and similar technologies when you visit our website or use our mobile games and services.
+        This Cookies Policy explains how Naolito Games S.L., operating under the commercial name &quot;Spark Games&quot; (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), uses cookies and similar technologies when you visit our website at sparkgames.app.
+      </p>
+
+      <p>
+        This policy applies to our website only. For information about data collection technologies (such as SDKs) used within our mobile games, please refer to our <a href="/privacy-policy">Privacy Policy</a>.
       </p>
 
       <h2>1. What Are Cookies?</h2>
-      
+
       <p>
-        Cookies are small text files that are placed on your device (computer, smartphone, tablet) when you visit a website or use an application. They are widely used to make websites and applications work more efficiently and to provide information to the owners of the site or app.
+        Cookies are small text files placed on your device (computer, smartphone, or tablet) when you visit a website. They are widely used to make websites work more efficiently and to provide information to website owners.
       </p>
-      
+
       <p>Similar technologies include:</p>
       <ul>
-        <li><strong>Web beacons/pixels:</strong> Small transparent images used to track user behavior</li>
-        <li><strong>Local storage:</strong> Data stored locally on your device</li>
-        <li><strong>Session storage:</strong> Temporary data stored during your session</li>
-        <li><strong>Software Development Kits (SDKs):</strong> Code libraries that may collect information in mobile apps</li>
+        <li><strong>Web beacons / pixels:</strong> Small transparent images used to track user behaviour.</li>
+        <li><strong>Local storage:</strong> Data stored locally on your device beyond the session.</li>
+        <li><strong>Session storage:</strong> Temporary data stored only for the duration of your browser session.</li>
       </ul>
 
-      <h2>2. Types of Cookies We Use</h2>
-      
-      <h3>2.1 Essential Cookies</h3>
+      <h2>2. Cookies We Use on This Website</h2>
+
       <p>
-        These cookies are necessary for our website and games to function properly. They enable basic functions like page navigation, access to secure areas, and essential game features. Without these cookies, our services cannot function properly.
+        We currently use only analytics cookies on our website. We do not use advertising or tracking cookies on our website. A full breakdown is provided in the table below:
       </p>
-      <p><strong>Examples:</strong></p>
-      <ul>
-        <li>Authentication and login state</li>
-        <li>Game progress and save data</li>
-        <li>Security features</li>
-        <li>Load balancing</li>
-      </ul>
-      <p><strong>Legal basis:</strong> These cookies are necessary for the performance of our contract with you and our legitimate interests in providing secure, functioning services.</p>
 
-      <h3>2.2 Performance and Analytics Cookies</h3>
+      <div style={{ overflowX: "auto" }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.9rem" }}>
+          <thead>
+            <tr>
+              <th style={{ textAlign: "left", padding: "8px", borderBottom: "2px solid #ddd" }}>Cookie</th>
+              <th style={{ textAlign: "left", padding: "8px", borderBottom: "2px solid #ddd" }}>Provider</th>
+              <th style={{ textAlign: "left", padding: "8px", borderBottom: "2px solid #ddd" }}>Purpose</th>
+              <th style={{ textAlign: "left", padding: "8px", borderBottom: "2px solid #ddd" }}>Duration</th>
+              <th style={{ textAlign: "left", padding: "8px", borderBottom: "2px solid #ddd" }}>Type</th>
+              <th style={{ textAlign: "left", padding: "8px", borderBottom: "2px solid #ddd" }}>Privacy Policy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>_ga</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Google Analytics</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Distinguishes unique users by assigning a randomly generated number as a client identifier.</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>2 years</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Persistent</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></td>
+            </tr>
+            <tr>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>_ga_&lt;ID&gt;</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Google Analytics</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Stores and counts page views for a specific GA4 property.</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>2 years</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Persistent</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></td>
+            </tr>
+            <tr>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>_gid</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Google Analytics</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Distinguishes users. Each browser session creates a new identifier.</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>24 hours</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Persistent</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></td>
+            </tr>
+            <tr>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>_gat</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Google Analytics</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Used to throttle request rate to Google Analytics.</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>1 minute</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}>Persistent</td>
+              <td style={{ padding: "8px", borderBottom: "1px solid #eee" }}><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>3. Cookie Categories</h2>
+
+      <h3>3.1 Essential Cookies</h3>
       <p>
-        These cookies help us understand how visitors interact with our website and games by collecting and reporting information anonymously. This helps us improve our services and user experience.
+        These cookies are necessary for our website to function properly. They enable basic functions like page navigation and access to secure areas. Without these cookies, the website cannot function correctly. No consent is required for these cookies.
       </p>
-      <p><strong>Examples:</strong></p>
-      <ul>
-        <li>Google Analytics</li>
-        <li>Game analytics and crash reporting</li>
-        <li>Performance monitoring</li>
-        <li>User behavior analysis</li>
-      </ul>
-      <p><strong>Legal basis:</strong> Legitimate interests in improving our services, or consent where required.</p>
+      <p><strong>Legal basis:</strong> Performance of contract and legitimate interest in providing a functioning, secure website.</p>
 
-      <h3>2.3 Functionality Cookies</h3>
+      <h3>3.2 Analytics Cookies</h3>
       <p>
-        These cookies allow our website and games to remember choices you make (such as language preferences, region, or other settings) and provide enhanced, more personal features.
+        These cookies help us understand how visitors interact with our website by collecting information anonymously. This helps us improve our website and user experience. We use Google Analytics (GA4) for this purpose.
       </p>
-      <p><strong>Examples:</strong></p>
-      <ul>
-        <li>Language and region preferences</li>
-        <li>User interface customizations</li>
-        <li>Game settings and preferences</li>
-        <li>Remember login information</li>
-      </ul>
-      <p><strong>Legal basis:</strong> Legitimate interests in providing personalized services, or consent where required.</p>
-
-      <h3>2.4 Advertising and Marketing Cookies</h3>
       <p>
-        These cookies are used to deliver advertisements that are relevant to you and your interests. They may also be used to limit the number of times you see an advertisement and measure the effectiveness of advertising campaigns.
+        Google Analytics collects data such as pages visited, time spent on the site, and general geographic location (country/city level). It does not identify you personally.
       </p>
-      <p><strong>Examples:</strong></p>
-      <ul>
-        <li>Google AdMob</li>
-        <li>Facebook Audience Network</li>
-        <li>Unity Ads</li>
-        <li>Custom advertising platforms</li>
-      </ul>
-      <p><strong>Legal basis:</strong> Consent (you can withdraw this consent at any time).</p>
+      <p><strong>Legal basis:</strong> Consent. These cookies are only activated after you accept them via our cookie consent banner.</p>
 
-      <h2>3. Third-Party Cookies</h2>
-      
-      <p>Some cookies are placed by third-party services that appear on our pages or in our games. We do not control these cookies, and you should check the third-party websites for more information about their cookies.</p>
-      
-      <h3>3.1 Common Third-Party Services</h3>
+      <h3>3.3 A Note on Our Mobile Games</h3>
+      <p>
+        Our mobile games (such as Block Swap) use Software Development Kits (SDKs) — such as Firebase Analytics, Unity Ads, AdMob, and others — which collect data in a manner similar to cookies. These SDKs operate within the app environment and are not controlled through your browser cookie settings. For full details on these technologies and how to control them, please refer to our <a href="/privacy-policy">Privacy Policy</a>.
+      </p>
+
+      <h2>4. Third-Party Cookies</h2>
+
+      <p>
+        The only third-party cookie service currently used on our website is Google Analytics (Google LLC). We do not control Google&apos;s cookies directly. For more information on how Google uses data collected through Analytics, please visit:
+      </p>
       <ul>
-        <li><strong>Google Analytics:</strong> Web analytics service</li>
-        <li><strong>Google AdMob:</strong> Mobile advertising platform</li>
-        <li><strong>Facebook SDK:</strong> Social media integration and advertising</li>
-        <li><strong>Unity Analytics:</strong> Game analytics platform</li>
-        <li><strong>Apple App Store / Google Play:</strong> App store services</li>
+        <li>Google Analytics Data Privacy: <a href="https://support.google.com/analytics/answer/6004245" target="_blank" rel="noopener noreferrer">https://support.google.com/analytics/answer/6004245</a></li>
+        <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
       </ul>
 
-      <h2>4. How Long Do Cookies Last?</h2>
-      
+      <h2>5. How Long Do Cookies Last?</h2>
+
       <p>Cookies can be either:</p>
       <ul>
-        <li><strong>Session cookies:</strong> Temporary cookies that are deleted when you close your browser or app</li>
-        <li><strong>Persistent cookies:</strong> Cookies that remain on your device for a set period or until you delete them</li>
+        <li><strong>Session cookies:</strong> Temporary cookies deleted when you close your browser.</li>
+        <li><strong>Persistent cookies:</strong> Cookies that remain on your device for a defined period or until you delete them manually.</li>
       </ul>
-      
-      <p>The duration depends on the purpose of the cookie:</p>
-      <ul>
-        <li><strong>Essential cookies:</strong> Usually session cookies or short-term persistent cookies</li>
-        <li><strong>Analytics cookies:</strong> Typically last 1-2 years</li>
-        <li><strong>Advertising cookies:</strong> Usually last 30 days to 1 year</li>
-        <li><strong>Preference cookies:</strong> Can last several months to years</li>
-      </ul>
+      <p>The specific durations for each cookie we use are listed in the table in Section 2.</p>
 
-      <h2>5. Your Cookie Choices</h2>
-      
-      <h3>5.1 Browser Settings</h3>
-      <p>Most web browsers allow you to control cookies through their settings preferences. You can:</p>
-      <ul>
-        <li>Block all cookies</li>
-        <li>Block third-party cookies</li>
-        <li>Delete cookies when you close your browser</li>
-        <li>Receive notifications when cookies are set</li>
-      </ul>
-      
-      <p>However, if you block or delete cookies, some features of our website or games may not work properly.</p>
+      <h2>6. Your Cookie Choices</h2>
 
-      <h3>5.2 Mobile Device Settings</h3>
-      <p>On mobile devices, you can control similar technologies through your device settings:</p>
-      <ul>
-        <li><strong>iOS:</strong> Settings &gt; Privacy &gt; Advertising &gt; Limit Ad Tracking</li>
-        <li><strong>Android:</strong> Settings &gt; Google &gt; Ads &gt; Opt out of Ads Personalization</li>
-      </ul>
-
-      <h3>5.3 Opt-Out Links</h3>
-      <p>You can opt out of certain advertising cookies through these industry resources:</p>
-      <ul>
-        <li><a href="http://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer">Network Advertising Initiative (NAI)</a></li>
-        <li><a href="http://optout.aboutads.info/" target="_blank" rel="noopener noreferrer">Digital Advertising Alliance (DAA)</a></li>
-        <li><a href="http://www.youronlinechoices.eu/" target="_blank" rel="noopener noreferrer">European Interactive Digital Advertising Alliance (EDAA)</a></li>
-      </ul>
-
-      <h3>5.4 In-Game Settings</h3>
-      <p>Many of our games include settings that allow you to control data collection and advertising preferences directly within the game interface.</p>
-
-      <h2>6. Consent Management</h2>
-      
+      <h3>6.1 Cookie Consent Banner</h3>
       <p>
-        Where required by law, we obtain your consent before using non-essential cookies. You can manage your consent preferences through:
-      </p>
-      <ul>
-        <li>Cookie consent banners on our website</li>
-        <li>Privacy settings in our games</li>
-        <li>Your browser or device settings</li>
-        <li>Contacting us directly</li>
-      </ul>
-      
-      <p>
-        You can withdraw your consent at any time by changing your settings or contacting us. Withdrawing consent will not affect the lawfulness of processing based on consent before its withdrawal.
+        When you first visit our website, you will be shown a cookie consent banner. You may accept or decline non-essential cookies (analytics). You can change your preferences at any time by clicking the cookie settings link in the footer of our website.
       </p>
 
-      <h2>7. Updates to Mobile Apps</h2>
-      
+      <h3>6.2 Browser Settings</h3>
+      <p>Most web browsers allow you to control cookies through their settings. You can:</p>
+      <ul>
+        <li>Block all cookies.</li>
+        <li>Block third-party cookies only.</li>
+        <li>Delete existing cookies.</li>
+        <li>Receive a notification when a cookie is set.</li>
+      </ul>
+      <p>Please note that blocking or deleting cookies may affect the functionality of our website.</p>
+
+      <h3>6.3 Mobile Device Settings</h3>
+      <p>On mobile devices, you can control advertising identifiers used in our apps through your device settings:</p>
+      <ul>
+        <li><strong>iOS:</strong> Settings &gt; Privacy &amp; Security &gt; Tracking — disable permission for individual apps.</li>
+        <li><strong>Android:</strong> Settings &gt; Google &gt; Ads — select &quot;Delete advertising ID&quot; or &quot;Opt out of ads personalisation&quot;.</li>
+      </ul>
+
+      <h3>6.4 Opt-Out Tools</h3>
+      <p>You can also opt out of Google Analytics tracking across all websites using the official browser add-on:</p>
+      <ul>
+        <li>Google Analytics Opt-out Browser Add-on: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">https://tools.google.com/dlpage/gaoptout</a></li>
+      </ul>
+      <p>For broader advertising opt-out options:</p>
+      <ul>
+        <li>Network Advertising Initiative (NAI): <a href="http://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer">http://optout.networkadvertising.org/</a></li>
+        <li>Digital Advertising Alliance (DAA): <a href="http://optout.aboutads.info/" target="_blank" rel="noopener noreferrer">http://optout.aboutads.info/</a></li>
+        <li>European Interactive Digital Advertising Alliance (EDAA): <a href="http://www.youronlinechoices.eu/" target="_blank" rel="noopener noreferrer">http://www.youronlinechoices.eu/</a></li>
+      </ul>
+
+      <h2>7. Consent Management</h2>
+
       <p>
-        Our mobile games may use mobile-specific technologies like SDKs (Software Development Kits) that collect information similar to cookies. When you update our games, new SDKs or tracking technologies may be included. We will update this policy accordingly and notify you of significant changes.
+        Where required by law (including the GDPR and Spain&apos;s LSSI), we obtain your prior consent before placing non-essential cookies. You can manage your consent preferences through:
+      </p>
+      <ul>
+        <li>The cookie consent banner displayed on your first visit to our website.</li>
+        <li>The cookie settings link available in the website footer.</li>
+        <li>Your browser or device settings (as described above).</li>
+        <li>Contacting us directly at <a href="mailto:contact@naolito.com">contact@naolito.com</a>.</li>
+      </ul>
+      <p>You may withdraw your consent at any time. Withdrawing consent will not affect the lawfulness of any processing carried out before the withdrawal.</p>
+
+      <h2>8. International Data Transfers</h2>
+
+      <p>
+        Google Analytics may transfer data to servers located outside the European Economic Area (EEA), including the United States. Google LLC participates in the EU-U.S. Data Privacy Framework and provides Standard Contractual Clauses as safeguards for such transfers. For more information, please refer to our <a href="/privacy-policy">Privacy Policy</a>.
       </p>
 
-      <h2>8. Children's Privacy</h2>
-      
-      <p>
-        Our services are not intended for children under 13. We do not knowingly use cookies to collect personal information from children under 13. If you believe we have collected information from a child under 13, please contact us immediately.
-      </p>
+      <h2>9. Children&apos;s Privacy</h2>
 
-      <h2>9. International Transfers</h2>
-      
       <p>
-        Some of the cookies and similar technologies we use may transfer your information to countries outside the European Economic Area (EEA). We ensure appropriate safeguards are in place for such transfers as described in our <a href="/privacy-policy">Privacy Policy</a>.
+        Our website is not intended for children under 13. We do not knowingly use cookies to collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us at <a href="mailto:contact@naolito.com">contact@naolito.com</a>.
       </p>
 
       <h2>10. Changes to This Cookies Policy</h2>
-      
+
       <p>
-        We may update this Cookies Policy from time to time to reflect changes in technology, legislation, or our practices. We will post any changes on this page and update the "Effective Date" at the top of the policy. For significant changes, we may provide additional notice.
+        We may update this Cookies Policy from time to time to reflect changes in technology, legislation, or our practices. We will post any updates on this page and revise the &quot;Effective date&quot; at the top. For significant changes, we may provide additional notice on our website.
       </p>
 
       <h2>11. Contact Us</h2>
-      
+
+      <p>If you have any questions about our use of cookies or this Cookies Policy, please contact us:</p>
+
       <p>
-        If you have any questions about our use of cookies or this Cookies Policy, please contact us:
-      </p>
-      
-      <p>
-        <strong>Naolito Games SL (operating as Spark Games)</strong><br />
-        Sor teresa prat 15, Polo de contenidos digitales<br />
-        Málaga (Spain) 29003<br />
+        <strong>Naolito Games S.L. (trading as Spark Games)</strong><br />
+        Sor Teresa Prat 15, Polo de Contenidos Digitales<br />
+        Málaga, Spain 29003<br />
         Email: <a href="mailto:contact@naolito.com">contact@naolito.com</a>
       </p>
-      
-      <p>
-        For specific questions about your privacy rights or cookie preferences, please include "Cookies Policy" in your subject line.
-      </p>
+
+      <p>Please include &quot;Cookies Policy&quot; in your subject line for faster handling.</p>
 
       <h2>12. Additional Resources</h2>
-      
-      <p>For more information about cookies and privacy, you can visit:</p>
+
+      <p>For more information about cookies and your privacy rights:</p>
       <ul>
-        <li><a href="https://www.allaboutcookies.org/" target="_blank" rel="noopener noreferrer">All About Cookies</a></li>
-        <li><a href="https://ico.org.uk/for-the-public/online/cookies/" target="_blank" rel="noopener noreferrer">UK Information Commissioner's Office</a></li>
-        <li><a href="https://ec.europa.eu/info/cookies_en" target="_blank" rel="noopener noreferrer">European Commission - Cookies</a></li>
+        <li>All About Cookies: <a href="https://www.allaboutcookies.org/" target="_blank" rel="noopener noreferrer">https://www.allaboutcookies.org/</a></li>
+        <li>Spanish Data Protection Agency (AEPD): <a href="https://www.aepd.es/" target="_blank" rel="noopener noreferrer">https://www.aepd.es/</a></li>
+        <li>European Commission — Cookies: <a href="https://ec.europa.eu/info/cookies_en" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/info/cookies_en</a></li>
       </ul>
 
     </LegalLayout>

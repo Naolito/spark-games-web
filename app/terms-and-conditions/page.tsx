@@ -2,156 +2,207 @@ import { Metadata } from "next";
 import LegalLayout from "@/components/LegalLayout";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions",
-  description: "Terms and Conditions for Spark Games mobile applications and services. Commercial name of Naolito Games SL.",
+  title: "Terms of Service",
+  description: "Terms of Service for Spark Games mobile applications and services. Commercial name of Naolito Games SL.",
 };
 
 export default function TermsAndConditions() {
   return (
-    <LegalLayout title="Terms and Conditions" lastUpdated="October 23, 2025">
-      
-      <h2>App service terms and conditions</h2>
-      
-      <h3>Acceptance of conditions</h3>
+    <LegalLayout title="Terms of Service" lastUpdated="March 6, 2026">
+
+      <p><strong>Effective date: March 6, 2026</strong></p>
+
+      <p>Hello and welcome to Spark Games!</p>
+
       <p>
-        Each User acknowledges having read all of the Terms and Conditions and the User Terms and Conditions and expressly accepts them without reservation.
+        These Terms of Service (the &quot;Terms&quot;) govern your use of our mobile applications, games, websites, and related services (collectively, the &quot;Services&quot; or &quot;Games&quot;).
       </p>
 
-      <h3>Terms and conditions for in-application purchases and subscriptions</h3>
-      
-      <h4>Scope of application of these conditions</h4>
       <p>
-        By purchasing an in-app purchase or a subscription to one of Spark Games' mobile games, you agree that you are submitting a legally binding offer to enter into a contract and acknowledge that you have the legal capacity to enter into such a contract or that you have the permission of your parent or legal guardian to enter into this legal contract.
-      </p>
-      <p>
-        Please note that use of Spark Games mobile games downloaded through the Apple AppStore is subject to Apple's End User License Agreement.
+        These Terms are a legally binding agreement between you and Naolito Games S.L., operating under the commercial name &quot;Spark Games&quot; (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;), with registered address at Avenida de Sor Teresa Prat, 15 (Polo de contenidos digitales), 29003, Málaga, Málaga, España and Tax ID B75552836.
       </p>
 
-      <h4>Acquire subscriptions or in-app purchases from Apple or Google</h4>
       <p>
-        Subscriptions and in-app purchases are purchased and billed by Apple AppStore or Google PlayStore and not by Spark Games. These purchases are subject to Apple's or Google's terms and conditions. Spark Games does not have access to user accounts or transactions. If you wish to confirm the type of subscription purchased on these platforms, please refer to your account or receipt, as each subscription will have a unique billing name.
-      </p>
-      <p>
-        In-game purchases on mobile devices use the payment method you have registered with the Apple App Store or the Google Play account registered on your device. For more information, please refer to the Apple or Google support articles.
+        By downloading, installing, accessing, or playing any of our Games, you agree to be bound by these Terms and our <a href="/privacy-policy">Privacy Policy</a>. If you do not agree to these Terms, do not install or use our Games.
       </p>
 
-      <ul>
-        <li>
-          <strong>No Ads: In App Purchase</strong> - In most Spark Games mobile games it is possible for users to purchase a feature called "No Ads". It is expressly stated that this feature is intended to stop the display of all advertisements that may interrupt our users' gaming experience.
-          <br /><br />
-          Please note that this feature does not affect the ability of all players to benefit from additional bonuses that can be unlocked by watching "reward videos" between levels or games. These "reward videos" are videos that players can choose to watch to get something (e.g. double their points, get more gems, new skins or avatars, etc.). Since it is the users' choice whether or not to watch these videos, the "ad-free" feature does not prevent users who have paid to do so in order to get more in-game items and bonuses.
-        </li>
-        <li>
-          <strong>Auto-renewing subscriptions</strong> - In some of its mobile games, Spark Games offers its users the possibility to purchase a weekly or monthly subscription for a fixed price indicated in that application in order to access specific services expressly made available by Spark Games for their use.
-          <br /><br />
-          Users will be charged the renewal fee within 24 hours prior to the end of the current period.
-          <br /><br />
-          You agree that the price with respect to the subscribed services is final and shall not be subject to refund by Spark Games.
-        </li>
-      </ul>
+      <h2>1. Acceptance of Terms and Age Requirements</h2>
 
-      <h3>Termination of subscription</h3>
-      
-      <h4>Termination by the user</h4>
-      <p>Subscriptions are managed through the Apple AppStore or Google Playstore:</p>
-      <ul>
-        <li>Most subscriptions automatically renew unless you cancel them.</li>
-        <li>If you cancel, you can continue to use the subscription until the next billing date.</li>
-        <li>If you unsubscribe during a trial period, you may lose access to the content immediately.</li>
-        <li>If you have subscribed to a free or discounted trial and do not want to renew it, cancel it at least 24 hours before it ends.</li>
-      </ul>
-
-      <h4>Termination by Spark Games</h4>
       <p>
-        Except as provided below in connection with subscription renewal, Spark Games may cancel, suspend or terminate your access to subscribed services if:
+        By accessing or using the Services, you confirm that you have read, understood, and agree to be bound by these Terms. If you do not agree, you must not use the Services.
+      </p>
+
+      <p>
+        <strong>Age requirement:</strong> Our Games are intended for users aged 13 and over (or the equivalent minimum legal age in your jurisdiction, such as 16 in certain EU countries). Users under 13 years of age may not use our Services under any circumstances.
+      </p>
+
+      <p>
+        <strong>Minors between 13 and 18:</strong> If you are a minor in your country of residence (for example, under 18 in Spain), you must review these Terms with your parent or legal guardian, who must accept them on your behalf before you may play. Parents and legal guardians who permit a minor to use the Services are responsible for supervising their use and accept these Terms on the minor&apos;s behalf.
+      </p>
+
+      <h2>2. License Grant (How You May Use the Game)</h2>
+
+      <p>
+        Subject to your compliance with these Terms, Spark Games grants you a personal, non-exclusive, non-transferable, non-sublicensable, and revocable license to access and play our Games solely for your own personal, non-commercial entertainment.
+      </p>
+
+      <h3>Prohibited Conduct</h3>
+
+      <p>
+        Any use of the Services that violates the following rules is strictly prohibited and may result in the immediate revocation of your license and the suspension or termination of your account. You agree NOT to:
       </p>
       <ul>
-        <li>The User is in breach of the conditions.</li>
-        <li>Spark Games is suspicious of any illegal activity associated with the user.</li>
-        <li>Spark Games suspects that certain instances of fraud or misuse have occurred.</li>
+        <li><strong>Hacks and cheating:</strong> Use, create, or promote cheats, exploits, bots, hacks, mods, automation software, emulators, or any unauthorized third-party software designed to modify or interfere with the Game or another player&apos;s experience.</li>
+        <li><strong>Account trading:</strong> Sell, buy, rent, gift, or otherwise transfer your game account or progress to another person.</li>
+        <li><strong>Commercial use:</strong> Use your account or the Services for any commercial purpose, including advertising, solicitation, or promotion.</li>
+        <li><strong>Reverse engineering:</strong> Decompile, reverse engineer, disassemble, or otherwise attempt to extract the source code of the Games.</li>
+        <li><strong>Harmful conduct:</strong> Use the Game to harass, threaten, abuse, or post offensive, defamatory, obscene, or discriminatory content against any person or group, or to disrupt Spark Games&apos; servers or other users&apos; enjoyment of the Service.</li>
+        <li><strong>Data collection:</strong> Collect, store, or process personal data about other users of the Service for commercial purposes or in any way that violates their privacy or applicable law.</li>
+        <li><strong>Gambling and betting:</strong> Use the Game for gambling, betting, or any similar activity in which prizes or rewards can be won directly or indirectly, regardless of whether a fee or stake is involved.</li>
+        <li><strong>Security breaches:</strong> Probe, scan, or test the vulnerability of our systems, or circumvent any security or authentication measures without authorization.</li>
+        <li><strong>Malicious content:</strong> Transmit or make available through the Services any viruses, malware, or other harmful computer code.</li>
+        <li><strong>Encouraging violations:</strong> Encourage, assist, or facilitate any other person to do any of the above.</li>
       </ul>
-      <p>
-        The subscription is subject to automatic renewal unless the user unsubscribes 24 hours before the end of the current week corresponding to the subscription period. If the user does not withdraw, the user will be charged for the next subscription period.
-      </p>
-      <p>
-        The user can directly manage the automatic renewal using the functionality provided in his iTunes Account settings.
-      </p>
 
-      <h2>General Terms of Service</h2>
-      
-      <p><strong>Effective Date: October 23, 2025</strong></p>
-      
-      <p>
-        The terms of this agreement ("Terms of Service") govern the relationship between you and NAOLITO GAMES S.L. and its affiliates (hereinafter referred to as "Spark Games", "us", or "we") regarding your use of Spark Games' games, websites, and related services (the "Service"). Use of the Service is also governed by Spark Games's Privacy Policy, which is incorporated herein by reference.
-      </p>
-      
-      <p>
-        Before accessing or using the Service, including browsing any Spark Games' website or accessing a game, you must agree to these Terms of Service and the Privacy Policy. You may also be required to register an account on the Service (an "Account"). By registering for an Account or otherwise using the Service, you indicate that you are age 13 or older and that you understand and agree to these Terms of Service. If you are between the ages of 13 and 17, you indicate that your legal guardian has reviewed and agreed to these Terms.
-      </p>
-      
-      <p>
-        If you access the Service from a Social Networking Site ("SNS"), such as Facebook or Google+, you shall comply with its terms of service/use as well as these Terms of Service.
-      </p>
-      
-      <p>
-        <strong>BY INSTALLING, USING, OR OTHERWISE ACCESSING THE SERVICE, YOU AGREE TO THESE TERMS OF SERVICE. IF YOU DO NOT AGREE TO THESE TERMS OF SERVICE, PLEASE DO NOT INSTALL, USE, OR OTHERWISE ACCESS THE SERVICE. USE OF THE SERVICE IS VOID WHERE PROHIBITED.</strong>
-      </p>
-      
-      <p>
-        Spark Games reserves the right, at its discretion, to change, modify, add or remove portions of these Terms of Service and its Privacy Policy at any time by posting the amended terms on the Spark Games' Service. You will be deemed to have accepted such changes by continuing to use the Service.
-      </p>
+      <h2>3. Your Account and Account Security</h2>
 
-      <h3>1. LICENSE</h3>
-      
-      <h4>1.1 Grant of a Limited License to Use the Service</h4>
       <p>
-        Subject to your agreement and continuing compliance with these Terms of Service and any other relevant Spark Games's policies, we grant you a non-exclusive, non-transferable, non-sublicensable, revocable limited license subject to the limitations below to access and use the Service for your own non-commercial entertainment purposes. You agree not to use the Service for any other purpose.
+        You are solely responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account, whether or not authorized by you. You agree to:
       </p>
-      
-      <p>The following restrictions apply to the use of the Service:</p>
       <ul>
-        <li>You shall not create an Account or access the Service if you are under the age of 13.</li>
-        <li>You shall restrict use by minors, and you will deny access to children under the age of 13. You accept full responsibility for any unauthorized use of the Service by minors.</li>
-        <li>You shall not sell, rent, or give away your Account, create an Account using a false identity or information, or on behalf of someone other than yourself.</li>
-        <li>You shall not use the Service if you have previously been removed by Spark Games, or previously been banned from playing any Spark Games's game.</li>
-        <li>You shall use your Account only for non-commercial purposes.</li>
-        <li>You shall not use the Service to advertise, solicit, or transmit any commercial advertisements, including chain letters, junk, or spam e-mail or repetitive messages to anyone.</li>
+        <li>Not share your account or login credentials with any other person.</li>
+        <li>Notify us immediately at <a href="mailto:contact@naolito.com">contact@naolito.com</a> if you become aware of any unauthorized access to or use of your account.</li>
+        <li>Not create an account using a false identity or on behalf of someone other than yourself.</li>
       </ul>
 
-      <h3>2. OWNERSHIP</h3>
-      
       <p>
-        All rights, title and interest in and to the Service (including without limitation any games, titles, computer code, themes, objects, characters, character names, stories, dialogue, catch phrases, concepts, artwork, animations, sounds, musical compositions, audio-visual effects, methods of operation, moral rights, documentation, in-game chat transcripts, character profile information, recordings of games played using a Spark Games game client, and the Spark Games game client and server software) are owned by Spark Games or its licensors.
+        Spark Games will not be liable for any loss or damage arising from your failure to maintain the security of your account. You acknowledge that you are responsible for any purchases or actions made through your account.
       </p>
 
-      <h3>3. DISCLAIMERS; LIMITATION OF LIABILITY</h3>
-      
+      <h2>4. Intellectual Property (Ownership)</h2>
+
+      <p>All rights, title, and interest in and to the Services are the exclusive property of Spark Games. This includes, without limitation:</p>
+      <ul>
+        <li>All computer code, game mechanics, and software.</li>
+        <li>All artwork, visual design, and characters (including expressly, by way of example, the design of all cats, pets, and board elements in Block Swap and future titles).</li>
+        <li>Animations, sound effects, music, and user interface (UI) elements.</li>
+        <li>In-game chat transcripts, character profile information, and recordings of gameplay.</li>
+      </ul>
+
       <p>
-        THE SERVICE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS FOR YOUR USE, WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, AND THOSE ARISING FROM COURSE OF DEALING OR USAGE OF TRADE.
-      </p>
-      
-      <p>
-        IN NO EVENT SHALL SPARK GAMES BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING OUT OF, OR IN CONNECTION WITH, YOUR USE OF THE SERVICE. IN NO EVENT SHALL THE LIABILITY OF SPARK GAMES, WHETHER ARISING IN CONTRACT, TORT, OR OTHERWISE, EXCEED THE TOTAL AMOUNT ACTUALLY PAID BY YOU TO SPARK GAMES IN THE ONE HUNDRED AND EIGHTY (180) DAYS IMMEDIATELY PRECEDING THE DATE ON WHICH YOU FIRST ASSERT A CLAIM.
+        You do not acquire any ownership rights by playing our Games or purchasing virtual goods. You may not use our characters, artwork, or trademarks to create merchandise, derivative works, or commercial content without our prior written authorization.
       </p>
 
-      <h3>4. DISPUTE RESOLUTION AND LAW</h3>
-      
+      <h2>5. Virtual Goods and In-App Purchases</h2>
+
       <p>
-        If a dispute arises between you and Spark Games, we strongly encourage you to first contact us directly to seek a resolution by contacting us at <a href="mailto:contact@naolito.com">contact@naolito.com</a>. These Terms of Service and any dispute arising out of or related to it or Privacy Policy or the Service shall be governed in all respects by the laws of Spain, without regard to conflict of law provisions.
+        Our Games may include virtual currency (such as gold coins or gems) and virtual items (such as power-ups, extra lives, or cosmetic elements) that you may purchase with real money (&quot;Virtual Goods&quot;).
       </p>
 
-      <h3>5. CONTACT INFORMATION</h3>
-      
       <p>
-        If you have any questions about these Terms of Service, please contact us at:
+        <strong>License, not ownership:</strong> When you purchase Virtual Goods, you do not own them. You receive only a limited, personal, non-transferable, and revocable license to use them within the Game. Virtual Goods have no real-world monetary value and cannot be redeemed for real money from Spark Games or any other party.
       </p>
-      
+
       <p>
-        <strong>Naolito Games SL</strong><br />
-        Sor teresa prat 15, Polo de contenidos digitales<br />
-        Málaga (Spain) 29003<br />
-        Email: <a href="mailto:contact@naolito.com">contact@naolito.com</a>
+        <strong>Final sales:</strong> All purchases of Virtual Goods are FINAL AND NON-REFUNDABLE, except where required by applicable law.
       </p>
+
+      <p>
+        <strong>App store transactions:</strong> Real-money transactions are processed through third-party providers such as Apple (App Store) or Google (Play Store). Spark Games does not directly process payments or your credit card information. Any refund requests must be handled in accordance with the policies of the relevant store platform.
+      </p>
+
+      <p>
+        <strong>DISCONTINUATION OF SERVICE: IF SPARK GAMES DISCONTINUES ALL OR PART OF THE SERVICES AT ANY TIME, YOUR RIGHT TO USE THE SERVICES OR THE RELEVANT PORTION WILL AUTOMATICALLY TERMINATE. SPARK GAMES SHALL NOT BE REQUIRED TO PROVIDE REFUNDS, BENEFITS, OR OTHER COMPENSATION IN CONNECTION WITH ANY SUCH DISCONTINUED SERVICE, INCLUDING IN RELATION TO ANY VIRTUAL GOODS ASSOCIATED WITH YOUR ACCOUNT.</strong>
+      </p>
+
+      <h2>6. Updates and Modifications to the Service</h2>
+
+      <p>
+        You understand that the Games are continuously evolving. Spark Games may require you to accept application updates to continue playing. We reserve the right to modify, suspend, rebalance (change difficulty), or discontinue the Services (or any part of them, such as a temporary event) at any time, with or without prior notice.
+      </p>
+
+      <h2>7. Termination and Suspension of Accounts</h2>
+
+      <p>
+        Spark Games reserves the right, at its sole discretion and without prior notice, to limit, suspend, or permanently terminate your account and access to the Services if:
+      </p>
+      <ul>
+        <li>You are failing, or Spark Games suspects that you are failing, to comply with these Terms.</li>
+        <li>You engage in any actual or suspected illegal or improper use of the Services.</li>
+        <li>Your account has been inactive for 180 consecutive days.</li>
+      </ul>
+
+      <p>
+        <strong>UPON TERMINATION OF YOUR ACCOUNT FOR ANY REASON, YOU MAY LOSE YOUR USERNAME, GAME PROGRESS, AND ANY VIRTUAL GOODS OR BENEFITS ASSOCIATED WITH YOUR ACCOUNT. SPARK GAMES IS UNDER NO OBLIGATION TO COMPENSATE YOU FOR ANY SUCH LOSSES.</strong>
+      </p>
+
+      <p>
+        You may terminate your account at any time by contacting us at <a href="mailto:contact@naolito.com">contact@naolito.com</a> or through the account deletion option available in the Game settings (Settings &gt; Privacy &gt; Delete account). You acknowledge that account deletion is irreversible and will result in the permanent loss of all progress and Virtual Goods.
+      </p>
+
+      <h2>8. Disclaimer of Warranties and Limitation of Liability</h2>
+
+      <p>
+        <strong>OUR GAMES ARE PROVIDED &quot;AS IS&quot; AND &quot;AS AVAILABLE&quot;, WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.</strong>
+      </p>
+
+      <p>
+        <strong>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, SPARK GAMES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF OR INABILITY TO USE THE GAMES. THIS INCLUDES, WITHOUT LIMITATION, LOSS OF GAME PROGRESS, LOSS OF VIRTUAL GOODS, DEVICE FAILURE, OR ACCOUNT TERMINATION.</strong>
+      </p>
+
+      <p>
+        Nothing in these Terms excludes or limits any rights you may have as a consumer under EU or applicable national law that cannot be limited or excluded by contract, including liability for damages caused by Spark Games&apos; fraud, gross negligence, or willful misconduct.
+      </p>
+
+      <h2>9. Indemnification</h2>
+
+      <p>
+        To the fullest extent permitted by applicable law, you agree to defend, indemnify, and hold harmless Spark Games and its officers, directors, employees, agents, and licensors from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising out of or relating to:
+      </p>
+      <ul>
+        <li>Your use of or access to the Services.</li>
+        <li>Your violation of these Terms.</li>
+        <li>Your violation of any third-party right, including intellectual property rights or privacy rights.</li>
+        <li>Any content you submit or transmit through the Services.</li>
+      </ul>
+
+      <h2>10. Governing Law and Dispute Resolution</h2>
+
+      <p>
+        These Terms and any dispute arising in connection with them or our Games shall be governed by and interpreted in accordance with the laws of Spain.
+      </p>
+
+      <p>
+        As a general rule, any legal proceedings brought against us shall be submitted exclusively to the competent courts of Seville, Spain.
+      </p>
+
+      <p>
+        <strong>EU consumer rights:</strong> Notwithstanding the above, if you are a consumer residing in the European Union, you retain the right to bring proceedings before the courts of your country of residence, in accordance with mandatory EU consumer protection law. You may also access the European Commission&apos;s Online Dispute Resolution (ODR) platform at <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr</a>.
+      </p>
+
+      <h2>11. Severability and Entire Agreement</h2>
+
+      <p>
+        If any provision of these Terms is found to be invalid, illegal, or unenforceable by a court of competent jurisdiction, that provision shall be modified to the minimum extent necessary to make it enforceable, or severed if modification is not possible. The remaining provisions of these Terms shall continue in full force and effect.
+      </p>
+
+      <p>
+        These Terms, together with our <a href="/privacy-policy">Privacy Policy</a>, constitute the entire agreement between you and Spark Games regarding your use of the Services and supersede all prior agreements, representations, or understandings.
+      </p>
+
+      <h2>12. Changes to These Terms</h2>
+
+      <p>
+        We reserve the right to update or modify these Terms at any time. The updated version will be published on this page with a new &quot;Effective date&quot;. If you continue to use the Games after changes have been posted, this means you accept the new Terms. We will notify you of material changes through the Game or through other appropriate channels.
+      </p>
+
+      <h2>13. Contact</h2>
+
+      <p>If you have any questions about these Terms of Service, you can reach us at:</p>
+      <ul>
+        <li>Email: <a href="mailto:contact@naolito.com">contact@naolito.com</a></li>
+        <li>Postal address: Avenida de Sor Teresa Prat, 15 (Polo de contenidos digitales), 29003, Málaga, Málaga, España.</li>
+      </ul>
 
     </LegalLayout>
   );
